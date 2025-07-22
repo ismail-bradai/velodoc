@@ -19,7 +19,7 @@ app.use(cors({
 
 
 
-// Or allow all (for dev only)
+// Or allow all (for dev only) ....
 // app.use(cors());
 
 app.use(express.json());
