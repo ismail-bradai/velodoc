@@ -11,7 +11,7 @@ dotenv.config();
 const app = express();
 
 app.use(cookieParser());
-// Allow requests from localhost:8080
+// Allow requests from localhost:8080 ....
 app.use(cors({
   origin: 'https://localhost:8080',
   credentials: true, // if you're using cookies/auth
